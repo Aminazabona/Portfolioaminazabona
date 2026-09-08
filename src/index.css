@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-white font-sans antialiased;
+}
+
+/* Utilitaires pour le Glassmorphism (Navbar) */
+.nav-glass {
+  @apply bg-slate-950/80 backdrop-blur-md border-b border-white/5;
+}
+
+/* Utilitaires pour les cartes */
+.card-style {
+  @apply bg-slate-900/50 border border-slate-800 rounded-2xl transition-all duration-300;
+}
