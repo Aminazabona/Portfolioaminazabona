@@ -1,16 +1,14 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-slate-950">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col">
       <Navbar />
-      <main>
-        {/* Les autres sections arriveront ici */}
-        <div className="h-[200vh]"></div> {/* Temporaire pour tester le scroll flou */}
+      <main className="flex-1">
+        <Hero />
       </main>
     </div>
   );
 }
-
-export default App;
