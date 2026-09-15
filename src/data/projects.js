@@ -1,0 +1,32 @@
+export const projects = [
+  {
+    id: "bunamar-shop",
+    title: "Bunamar Shop",
+    technologies: "React, Tailwind CSS, Node.js",
+    description: "Site e-commerce moderne avec panier, authentification et paiement en ligne.",
+    image: "/src/assets/images/Bunamar.png",
+    demoUrl: "bunamar-frontend.vercel.app",
+    githubUrl: "https://github.com/aminazabona",
+    badgeLabel: "E-Commerce",
+  },
+  {
+    id: "spgcr",
+    title: "SPGCR – Suivi de Production",
+    technologies: "React, FastAPI, PostgreSQL",
+    description: "Application de suivi de production et gestion des coûts de revient pour PME.",
+    image: "/src/assets/images/SPGCR.png",
+    demoUrl: "https://systeme-de-suivie-de-production-et.vercel.app/",
+    githubUrl: "https://github.com/aminazabona",
+    badgeLabel: "Dashboard & Gestion",
+  },
+  {
+    id: "amina-weather",
+    title: "AminaWeather",
+    technologies: "React, Tailwind CSS",
+    description: "Application météo moderne et interactive affichant les prévisions météorologiques en temps réel.",
+    image: "/src/assets/images/Aminaweather.png",
+    demoUrl: "https://aminaweather-app.netlify.app/",
+    githubUrl: "https://github.com/aminazabona",
+    badgeLabel: "Météo",
+  },
+];
