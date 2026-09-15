@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <main className="flex-1">
         <Hero />
         <Skills />
+        <Experience />
       </main>
     </div>
   );

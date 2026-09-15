@@ -1,23 +1,26 @@
 export const experiences = [
   {
-    year: "2025",
-    role: "Stage Développeuse Web",
-    company: "Tech Upgrade",
-    description: "Développement de fonctionnalités web, intégration d'APIs, optimisation des performances.",
-    type: "work" // Pour choisir l'icône Lucide (Briefcase)
+    id: "stage-tech-upgrade",
+    year: "2026",
+    title: "Stage Développeuse Web",
+    organization: "Tech Upgrade",
+    description: "Approfondissement des compétences techniques à travers des projets pratiques. Développement de connaissances en conception et développement d’applications web. Renforcement des pratiques de collaboration et de résolution de problèmes.",
+    iconType: "briefcase",
   },
   {
-    year: "2025",
-    role: "Formation Développeuse Fullstack",
-    company: "Afrix Global – Talent4Startup",
-    description: "Formation intensive : React, Node.js, FastAPI, bases de données.",
-    type: "education" // Pour choisir l'icône Lucide (GraduationCap)
+    id: "formation-afrix-global",
+    year: "2025-2026",
+    title: "Formation Développeuse Fullstack",
+    organization: "Afrix Global – Talent4Startup",
+    description: "Développement de compétences en développement web et travail en équipe. Mise en pratique des connaissances à travers des exercices et ateliers. Découverte des méthodes de travail dans un environnement professionnel.",
+    iconType: "graduation",
   },
   {
-    year: "2025",
-    role: "Licence en Info. Appliquée",
-    company: "ISIG – Goma",
-    description: "Étude des systèmes d'information, programmation, gestion de bases de données.",
-    type: "university" // Pour choisir l'icône Lucide (School)
-  }
+    id: "licence-isig",
+    year: "2023-2026",
+    title: "Licence en Informatique Appliquée à la Gestion des Entreprises",
+    organization: "ISIG – Goma",
+    description: "Étude des systèmes d'information, analyse, programmation, gestion de bases de données et développement d'applications.",
+    iconType: "landmark",
+  },
 ];
