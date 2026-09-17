@@ -1,7 +1,3 @@
-import certificatTalent from "../assets/images/aminazabonacertificat.jpeg";
-import certificatIA from "../assets/images/aminazabonaesther.jpeg";
-import photoAmina from "../assets/images/aminadefense.jpg";
-
 export const certificates = [
   {
     id: "certif-talent4startup",
@@ -9,9 +5,9 @@ export const certificates = [
     issuer: "Afrix Global – Talent4Startup",
     year: "2026",
     credentialId: "AFX-T4S-2026",
-    image: certificatTalent,
-    photoUrl: certificatTalent,
-    documentUrl: certificatTalent,
+    image: "/images/aminazabonacertificat.jpeg",
+    photoUrl: "/images/aminazabonacertificat.jpeg",
+    documentUrl: "/images/aminazabonacertificat.jpeg",
     badgeLabel: "Fullstack",
     buttonText: "Voir le certificat",
     isDocument: false,
@@ -24,9 +20,9 @@ export const certificates = [
     issuer: "Go Innovation — Programme Go Skills",
     year: "2026",
     credentialId: "GO-AI-2026",
-    image: certificatIA,
-    photoUrl: certificatIA,
-    documentUrl: certificatIA,
+    image: "/images/aminazabonaesther.jpeg",
+    photoUrl: "/images/aminazabonaesther.jpeg",
+    documentUrl: "/images/aminazabonaesther.jpeg",
     badgeLabel: "IA & Data",
     buttonText: "Voir le certificat",
     isDocument: false,
@@ -39,9 +35,9 @@ export const certificates = [
     issuer: "ISIG – Goma",
     year: "2023-2026",
     credentialId: "ISIG-L3-2026",
-    image: photoAmina,
-    photoUrl: photoAmina,
-    documentUrl: "/documents/RELEVER  DES COTES.pdf",
+    image: "/images/aminadefense.jpg",
+    photoUrl: "/images/aminadefense.jpg",
+    documentUrl: "/documents/RELEVER DES COTES.pdf",
     badgeLabel: "Relevés",
     buttonText: "Voir mes relevés",
     isDocument: true,
