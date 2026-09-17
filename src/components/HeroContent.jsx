@@ -36,7 +36,7 @@ const HeroContent = () => (
       </a>
 
       <a
-        href="/src/assets/documents/AMINA_ZABONA_ESTHER_CV (8).pdf"
+        href="/AMINA_ZABONA_ESTHER_CV.pdf"
         download="AMINA_ZABONA_ESTHER_CV.pdf"
         className="inline-flex items-center justify-center gap-2.5 w-full sm:w-auto px-8 py-3.5 bg-slate-900/90 hover:bg-slate-800 border border-slate-700/80 text-slate-200 font-semibold rounded-xl transition-all"
       >
