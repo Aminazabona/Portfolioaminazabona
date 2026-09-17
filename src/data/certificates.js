@@ -37,7 +37,7 @@ export const certificates = [
     credentialId: "ISIG-L3-2026",
     image: "/images/aminadefense.jpg",
     photoUrl: "/images/aminadefense.jpg",
-    documentUrl: "/documents/RELEVERDESCOTES.pdf",
+    documentUrl: "/documents/RELEVER_DES_COTES.pdf",
     badgeLabel: "Relevés",
     buttonText: "Voir mes relevés",
     isDocument: true,
